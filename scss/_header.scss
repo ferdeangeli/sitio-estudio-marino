@@ -1,0 +1,29 @@
+.cabecera{
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    position: sticky;
+    background: rgb(123, 5, 5);
+    border-bottom: solid 3px; color: rgb(2, 103, 84);
+}
+
+.cabeceraLogo{
+    height: 60px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100vw;
+
+    .contenedorMenu{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .menuNav{
+        padding-right: 20px;
+    }
+}
